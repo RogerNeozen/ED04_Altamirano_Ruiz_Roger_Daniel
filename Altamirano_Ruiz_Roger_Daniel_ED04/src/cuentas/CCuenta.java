@@ -1,10 +1,10 @@
 package cuentas;
 
 /**
- * @author: Roger Daniel Altamirano.
- * @use Representa una cuenta bancaria y permite realizar operaciones
+ * @author Roger Daniel Altamirano.
+ * 
  * básicas como consultar el saldo, ingresar dinero y retirar dinero.
- * @date 30/04/2026.
+ * Fecha 30/04/2026.
  */
 public class CCuenta {
 
@@ -182,7 +182,7 @@ public class CCuenta {
     /**
      * Modifica el tipo de interés asociado a la cuenta.
      *
-     * @param tipoInterés nuevo tipo de interés.
+     * @param tipoInteres
      */
     public void setTipoInteres(double tipoInteres) {
         this.tipoInteres = tipoInteres;

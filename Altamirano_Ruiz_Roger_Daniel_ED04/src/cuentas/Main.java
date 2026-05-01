@@ -1,11 +1,11 @@
 package cuentas;
 
 /**
- * Autor: Roger Daniel Altamirano.
+ * @author Roger Daniel Altamirano.
  * Archivo: Main.java.
  * Uso principal: Clase principal del proyecto. Crea una cuenta bancaria y llama
  * al método que agrupa la operativa básica de la cuenta.
- * Fecha de creación: 01/05/2026.
+ * Fecha 30/04/2026.
  */
 public class Main {
 
@@ -24,11 +24,9 @@ public class Main {
     /**
      * * @autor Roger Daniel Altamirano.
      * @version 1.0
-     * @date 30/04/2026
+     * Fecha: 30/04/2026
      * @param cuenta1 cuenta bancaria sobre la que se realizan las operaciones.
      * @param cantidad cantidad que se desea retirar de la cuenta.
-     * @exception e fallo al retirar el dinero
-     * @exception e fallo al ingresar dinero
      */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         double saldoActual;
